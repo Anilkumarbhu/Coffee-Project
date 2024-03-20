@@ -1,0 +1,162 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    justify-content: center;
+   justify-content: space-around;
+   align-items: center;
+   color: aliceblue;
+   background-color: black;
+   padding: 40px;
+}
+nav h1{
+    font-size: 30px;
+}
+
+
+.links{
+    display: flex;
+    gap: 30px;
+}
+.links a{
+    text-decoration: none;
+    color: white;
+}
+
+section .start{
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    background-color: black;
+    padding: 40px;
+    gap: 20px;
+}
+section h1{
+    margin: 20px;
+}
+
+
+.start button{
+    background-color: chocolate;
+    text-decoration: underline;
+    font-size: 15px;
+    padding: 5px;
+    margin-top: 40px;
+    
+}
+.perfect{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    background-color: black;
+    padding: 30px;
+}
+.per h1{
+    font-size: 50px;
+}
+.per p{
+    padding-left: 23px;
+}
+.btn{
+   background-color: chocolate;
+   margin: 10px 20px;
+   padding: 10px;
+   text-decoration: underline;
+}
+.pro h1{
+    color: white;
+    background-color: black;
+    margin: 0px;
+    padding: 20px;
+    font-size: 30px;
+}
+    
+
+
+.mocha{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    background-color: black;
+    padding: 20px;
+  
+}
+.mocha1, .mocha2, .mocha3{
+    border: 1px solid yellow;
+    padding: 40px;
+    height: 350px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 40px;
+
+    
+}
+.btn1{
+   background-color: chocolate;
+  font-size: 10px;
+  text-align: center;
+  margin-left: 40px;
+  width: 100px;
+  height: 30px;
+  text-decoration: underline;
+}
+.line-con{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    padding: 100px;
+}
+.line{
+    width: 40%;
+    height: 3px;
+    background-color: chocolate;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    color: white;
+    background-color: black;
+    
+
+}
+.contact h1{
+    margin-left: -5px;
+    font-size: 30px;
+}
+span{
+    color: chocolate;
+}
+.line-con{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    padding: 80px;
+}
+.line{
+    width: 40%;
+    height: 3px;
+    background-color: chocolate;
+}
+.copy {
+    color: white;
+    background-color: black;
+    
+    
+    
+}
+.copy h1{
+    margin: -60px;
+    text-align: center;
+    
+    
+
+}
+   
