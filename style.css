@@ -1,90 +1,109 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
 }
-nav{
+
+body {
+    background-color: black;
+    color: white;
+    font-family: "Outfit", sans-serif;
+}
+
+nav {
     display: flex;
     justify-content: center;
-   justify-content: space-around;
-   align-items: center;
-   color: aliceblue;
-   background-color: black;
-   padding: 40px;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px;
+    flex-wrap: wrap;
 }
-nav h1{
+
+nav h1 {
     font-size: 30px;
 }
 
-
-.links{
+.links {
     display: flex;
+    align-items: center;
     gap: 30px;
 }
-.links a{
+
+.links a {
     text-decoration: none;
     color: white;
 }
 
-section .start{
-    text-align: center;
-    font-size: 30px;
-    color: white;
-    background-color: black;
-    padding: 40px;
-    gap: 20px;
-}
-section h1{
-    margin: 20px;
-}
-
-
-.start button{
-    background-color: chocolate;
-    text-decoration: underline;
-    font-size: 15px;
-    padding: 5px;
-    margin-top: 40px;
-    
-}
-.perfect{
+section .start {
     display: flex;
-    justify-content: space-around;
-    color: white;
-    background-color: black;
-    padding: 30px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 30px;
 }
-.per h1{
+
+.start button {
+    background-color: chocolate;
+    font-size: 15px;
+    padding: 5px 15px;
+}
+
+.start img {
+    width: 350px;
+    margin-left: 40px;
+}
+
+.perfect {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    padding: 50px 0;
+}
+
+.per h1 {
     font-size: 50px;
 }
-.per p{
-    padding-left: 23px;
+
+.per button {
+    background-color: chocolate;
+    font-size: 15px;
+    margin-top: 20px;
+    padding: 5px 15px;
+
 }
-.btn{
-   background-color: chocolate;
-   margin: 10px 20px;
-   padding: 10px;
-   text-decoration: underline;
+
+.image {
+    width: 350px;
 }
-.pro h1{
-    color: white;
-    background-color: black;
-    margin: 0px;
-    padding: 20px;
+
+.image img {
+    width: 100%;
+}
+
+.pro h1 {
     font-size: 30px;
 }
-    
 
+.pro {
+    display: flex;
+    flex-direction: column;
+    padding: 50px 20px;
+    gap: 20px;
+}
 
-.mocha{
+.mocha {
     display: flex;
     justify-content: space-around;
-    color: white;
-    background-color: black;
-    padding: 20px;
-  
+    align-items: center;
+    flex-wrap: wrap;
+
 }
-.mocha1, .mocha2, .mocha3{
+
+.mocha1,
+.mocha2,
+.mocha3 {
     border: 1px solid yellow;
     padding: 40px;
     height: 350px;
@@ -93,70 +112,71 @@ section h1{
     flex-direction: column;
     text-align: center;
     gap: 40px;
+    border-radius: 5px;
 
-    
+
 }
-.btn1{
-   background-color: chocolate;
-  font-size: 10px;
-  text-align: center;
-  margin-left: 40px;
-  width: 100px;
-  height: 30px;
-  text-decoration: underline;
+
+.btn1 {
+    background-color: chocolate;
+    font-size: 10px;
+    text-align: center;
+    margin-left: 40px;
+    width: 100px;
+    height: 30px;
+
 }
-.line-con{
+
+.line-con {
     width: 100%;
     display: flex;
     justify-content: center;
-    background-color: black;
     padding: 100px;
 }
-.line{
+
+.line {
     width: 40%;
     height: 3px;
     background-color: chocolate;
 }
-.footer{
+
+.footer {
     display: flex;
     justify-content: center;
     justify-content: space-around;
-    color: white;
-    background-color: black;
-    
+    align-items: center;
+    flex-wrap: wrap;
+
 
 }
-.contact h1{
+
+.contact h1 {
     margin-left: -5px;
     font-size: 30px;
 }
-span{
+
+span {
     color: chocolate;
 }
-.line-con{
+
+.line-con {
     width: 100%;
     display: flex;
     justify-content: center;
-    background-color: black;
+
     padding: 80px;
 }
-.line{
+
+.line {
     width: 40%;
     height: 3px;
     background-color: chocolate;
 }
-.copy {
-    color: white;
-    background-color: black;
-    
-    
-    
-}
-.copy h1{
+
+.copy h1 {
     margin: -60px;
     text-align: center;
-    
-    
+
+
 
 }
-   
